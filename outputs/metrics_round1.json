@@ -1,0 +1,43 @@
+{
+  "round": 1,
+  "model": "yolov8n active_learning_round1 (12 images, 169 boxes)",
+  "base_model": "yolov8n.pt",
+  "n_train_images": 12,
+  "n_train_boxes": 169,
+  "epochs": 10,
+  "imgsz": 960,
+  "strategies": [
+    "active_learning"
+  ],
+  "test": {
+    "images": 20,
+    "ref_boxes": 403,
+    "ref_ignored_tiny": 14,
+    "ap50": 0.6543,
+    "conf_thr": 0.25,
+    "tp": 171,
+    "fp": 22,
+    "fn": 232,
+    "precision": 0.886,
+    "recall": 0.4243,
+    "f1": 0.5738,
+    "recall_by_size": {
+      "small": {
+        "recall": 0.1364,
+        "ref_boxes": 66
+      },
+      "medium": {
+        "recall": 0.4459,
+        "ref_boxes": 296
+      },
+      "large": {
+        "recall": 0.7317,
+        "ref_boxes": 41
+      }
+    }
+  },
+  "reference": "data/test/labels",
+  "runtime": "Local Python",
+  "student": "Nguy\u1ec5n \u0110\u00ecnh M\u1ea1nh",
+  "created": "2026-09-25T14:48:00"
+}

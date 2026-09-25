@@ -1,0 +1,4 @@
+round,frame_id,object,action,rule_or_reason
+1,frame_0099.jpg,xe tối gần mép phải,added,Thấy thân xe và 1 phần đèn xe đủ ranh giới theo GUIDELINE_LABEL.md
+1,frame_0107.jpg,gán chồng bbox lên xe khác,edited,Chỉnh sửa lại bbox sao cho sát phần xe nhất theo GUIDELINE_LABEL.md
+1,frame_0182.jpg,bbox không ôm trọn xe,edited,Chỉnh sửa lại bbox sao cho sát phần xe nhất theo GUIDELINE_LABEL.md
